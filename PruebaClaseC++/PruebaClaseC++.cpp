@@ -18,20 +18,23 @@
 
 // Suma sin parámetros: retorna 1 + 2
 int Suma() {
-    std::cout << "Ejecutando Suma(): 1 + 2" << std::endl;
-    return 1 + 2;
+    int r = 1 + 2;
+    std::cout << "Ejecutando Suma(): 1 + 2 = " << r << std::endl;
+    return r;
 }
 
 // Suma con un parámetro entero: retorna a + 2
 int Suma(int a) {
-    std::cout << "Ejecutando Suma(int): " << a << " + 2" << std::endl;
-    return a + 2;
+    int r = a + 2;
+    std::cout << "Ejecutando Suma(int): " << a << " + 2 = " << r << std::endl;
+    return r;
 }
 
 // Suma con dos parámetros float: retorna a + b
 float Suma(float a, float b) {
-    std::cout << "Ejecutando Suma(float, float): " << a << " + " << b << std::endl;
-    return a + b;
+    float r = a + b;
+    std::cout << "Ejecutando Suma(float, float): " << a << " + " << b << " = " << r << std::endl;
+    return r;
 }
 
 

@@ -20,8 +20,8 @@ TEST(SumaTest, SinParametros) {
 
 // Test para Suma(int)
 TEST(SumaTest, ConEntero) {
-    EXPECT_EQ(Suma(5), 7);   // 5 + 2 = 7
-    EXPECT_EQ(Suma(-2), 0);  // -2 + 2 = 0
+    EXPECT_EQ(Suma(4), 7);   // 5 + 2 = 7
+    EXPECT_EQ(Suma(-1), 0);  // -2 + 2 = 0
 }
 
 // Test para Suma(float, float)
